@@ -44,8 +44,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -59,9 +59,9 @@ ROOT_URLCONF = 'Fintech_org.urls'
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-       'http://localhost:5000',
-        'https://fintech-org.herokuapp.com',
-        'https://localhost:3000',
+    'http://127.0.0.1:8000'
+    'https://fintech-org.herokuapp.com',
+    'https://localhost:3000',
 )
 
 TEMPLATES = [
