@@ -1,0 +1,1 @@
+web: gunicorn Fintech_org.wsgi --log-file -
