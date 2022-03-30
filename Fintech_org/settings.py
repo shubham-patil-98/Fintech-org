@@ -59,7 +59,7 @@ ROOT_URLCONF = 'Fintech_org.urls'
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-    'http://127.0.0.1:8000'
+    'https://127.0.0.1:8000',
     'https://fintech-org.herokuapp.com',
     'https://localhost:3000',
 )
