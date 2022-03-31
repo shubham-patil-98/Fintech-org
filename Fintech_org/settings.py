@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-!qs2ssb5$$l%5u$nm!byh(q_u)r!^ewe^36tms-ij5ql_usg9-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fintech-org.herokuapp.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['https://fintech-org.herokuapp.com','https://127.0.0.1:8000','https://localhost:3000']
+
 
 
 # Application definition
