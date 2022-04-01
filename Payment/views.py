@@ -1,9 +1,7 @@
 from rest_framework import viewsets
 from .serializers import ComplaintSerializer,DetailSerializer,RechargeSerializer
-
 from .models import Complaint,Detail,recharge
 from .mypagination import MyPageNumberPagination
-from django.views.generic import TemplateView
 
 class ComplaintViewset(viewsets.ModelViewSet):
     queryset=Complaint.objects.all().order_by('complaints')
